@@ -1,0 +1,86 @@
+form {
+    margin-top: 30px;
+}
+label {
+    color: #639;
+    margin-top: 10px;
+}
+.custom-upload-file {
+    color: black;
+    padding: 5px;
+    position: relative;
+    border-radius: 0.25rem;
+    width: 300px;
+    display: block;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+}
+.custom-upload-file:before {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 100px;
+    height: 95%;
+    color: #fff;
+    border-radius: 0.25rem;
+    padding-top: 2px;
+    content: "\f093";
+    vertical-align: bottom;
+    text-align-last: center;
+    background-color: #639;
+    font-family: "Font Awesome 5 Free";
+}
+.custom-upload-file:hover:before {
+    background-color: #9789a5;
+}
+.btn-add {
+    margin-top: 40px;
+}
+
+/* edit_product */
+.product-image {
+    width: 300px;
+}
+.feature-image {
+    width: 100%;
+    border-radius: 0.25rem;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+.product-image-detail {
+    width: 100%;
+    height: auto;
+}
+.product-images {
+    width: 130px;
+    height: 200px;
+    float: left;
+}
+.image-detail {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.25rem;
+    margin-top: 10px;
+    object-fit: cover;
+}
+.clear-float {
+    clear: both;
+}
+
+.custom-add-errors {
+    color: red;
+}
+
+/* Ảnh trong bảng index */
+.content-image-index {
+    width: 200px;
+    padding: 5px;
+    height: 100px;
+}
+
+.image-product-index {
+   object-fit: cover;
+   width: 99%;
+   height: 99%;
+}

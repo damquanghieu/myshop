@@ -1,0 +1,39 @@
+/* upload file */
+form {
+    margin-top: 30px;
+}
+label {
+    color: #639;
+    margin-top: 10px;
+}
+.custom-upload-file {
+    color: black;
+    padding: 5px;
+    position: relative;
+    border-radius: 0.25rem;
+    width: 300px;
+    display: block;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+}
+.custom-upload-file:before {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 100px;
+    height: 95%;
+    color: #fff;
+    border-radius: 0.25rem;
+    padding-top: 2px;
+    content: "\f093";
+    vertical-align: bottom;
+    text-align-last: center;
+    background-color: #639;
+    font-family: "Font Awesome 5 Free";
+}
+.custom-upload-file:hover:before {
+    background-color: #9789a5;
+}
+.btn-add {
+    margin-top: 40px;
+}
